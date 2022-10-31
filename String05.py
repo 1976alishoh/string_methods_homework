@@ -7,4 +7,6 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.capitalize()
+print(main("mobile development"))
+print(main("python programming"))
