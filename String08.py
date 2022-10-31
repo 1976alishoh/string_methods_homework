@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.isupper():
+        return True
+    else:
+        return False
+print(main("CODESCHOOL"))
+print(main("Mobile"))
