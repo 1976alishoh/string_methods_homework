@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.isdigit():
+        return True
+    else:
+        return False
+print(main("12345"))
+print(main("2022ABC"))
